@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.mainSection {
+    padding: 20px;
+}
+
+.article {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+
+  .article h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .article p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .custom-border {
+    border-bottom: 3px solid #ffc107; /*bootstrap warning color*/
+    
+  }
+  @media (min-width: 992px) { /*lg bootstrap breakpoint */
+    .custom-border {
+        border-bottom: none;
+        border-left: 3px solid #ffc107;
+    }
+  }

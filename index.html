@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></link>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -15,10 +15,10 @@
     
     <div class="container">
         <div class="row">
-            <div class="d-none d-lg-block col-lg-1 bg-success">
+            <!--<div class="d-none d-lg-block col-lg-1 bg-success"> -->
                 <!-- I want to change this section to the site navigation and change the current navigation to page navigation -->
             </div>
-            <div class="col-12 col-lg-10">    
+            <div class="col-12"> <!-- col-lg-10"> -->   
                 <div class="row">
                     
                     <div class="col-12 border border-dark p-0">
@@ -33,28 +33,28 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/care.html">Care</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/feeding.html">Feeding</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/buyStuff.html">Buy Stuff</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/contact.html">Contact Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/game.html">Game</a>
-                                </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                                </li> -->
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/care.html">Care</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/feeding.html">Feeding</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/buyStuff.html">Buy Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/game.html">Game</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    </li> -->
                                 </ul>
                             </div>
                             
@@ -62,152 +62,161 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- <div class="col-2 border border-dark overflow-auto">
-                        i am here but i am too long for this box
-                    </div> -->
-                    <div class="col-12 text-end fw-bold text-purple p-4"  
-                        style="background-image: url('./images/gliderBackground.webp'); 
-                                background-size: cover; background-position: center; 
-                                -webkit-text-stroke: 1px white;; color: purple; ">
-                            <p class="fs-1">We look forward to showing you</p>
-                            <p class="fs-1"><strong>Glider Life</strong></p>
-                    </div>
-                    <!-- <div class="col-2 border border-dark ">
-                        i am here on the right
-                    </div> -->
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <!--This page needs to fix the borders, add two more maps to their origin location and remove the overlays, and add a note to the newsletter that 
-                            there isnt actually a newletter -->
-                        <h2>Welcome to the wonderful world of Sugar Gliders</h2>
-                        <p>
-                            Are you interested in Sugar Gliders?  Do you have a love for little, soft animals.
-                            Then sugar gliders may be for you.  Not only are they cute, but once you have 
-                            spent enough time with them for them to recongize you as their person, you will
-                            be part of their group.  You will get to experience the great pleasure of them
-                            jumping up and on to you just to see you.
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-12 col-lg-4 
-                                border-bottom border-lg-bottom-0 
-                                border-lg-start 
-                                border-3 border-warning 
-                                text-center">
-                        <p>Sleeping</p>
-                        <p>Appr 7:00 am - 8:00 pm</p>
-                    </div>
-                    <div class="col-12 col-lg-4 
-                                border-bottom 
-                                border-lg-start 
-                                border-3 border-warning 
-                                text-center">
-                        <p>Awake</p>
-                        <p>Appr 8:00 pm - 7:00 am</p>
-                    </div>
-                    <div class="col-12 col-lg-4 border-start border-3 border-warning text-center">
-                        <p>Behavior</p>
-                        <p>Alert, Grouping, Defensive</p>
-                    </div>
-                </div>
-            
-            
-        
-                <br>
-                <br>
-                <br>
+                    <div class="d-none d-lg-block col-lg-2 bg-success">
 
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <!--    
-                        <form>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="mb-3">                      
-                                        <input type="text" class="form-control" id="exampleInputFirstName" aria-describedby="firstName" placeholder="First name">
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" id="exampleInputLastName" aria-describedby="label" placeholder="Last name">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-6">
-                                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone number">
-                                </div>
-                                <div class="col-6">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
-                                </div>
-                            </div>
-                            
-
-
-
-                            <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                        -->
-
-                        <h3>Where do Suger gliders come from?</h3>
-                        <p>
-                            Sugar gliders come from 3 places in the world.
-                            Sugar gliders are native to the forests of New Guinea, 
-                            Australia, and parts of Indonesia. These small, nocturnal 
-                            marsupials are arboreal gliders. They're commonly found 
-                            in the wild in the rainforests of these regions. I remember 
-                            they’re part of the possum family and are known for their 
-                            ability to glide. It's important to note that they're 
-                            often kept as pets, even though their origins are in the wild.
-                        </p>
                     </div>
-                    <div class="col-12 col-lg-6">
-
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8133513.502060096!2d135.6036904422622!3d-5.501175819778843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x684a0316a5130283%3A0xf0d0324058e7ea8!2sNew%20Guinea!5e0!3m2!1sen!2sus!4v1739646994399!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            
-                <br><br><br>
-                <div class="row">
-                    <div class="col-6">
-                        <p>Subscribe to our newsletter</p>
-                    </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-10">
                         <div class="row">
-                            <form class="d-flex"> <!-- Flexbox makes it inline -->
-                                <div class="col-8">
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+                            <!-- <div class="col-2 border border-dark overflow-auto">
+                                i am here but i am too long for this box
+                            </div> -->
+                            <div class="col-12 text-end fw-bold text-purple p-4"  
+                                style="background-image: url('./images/gliderBackground.webp'); 
+                                        background-size: cover; background-position: center; 
+                                        -webkit-text-stroke: 1px white;; color: purple; ">
+                                    <p class="fs-1">We look forward to showing you</p>
+                                    <p class="fs-1"><strong>Glider Life</strong></p>
+                            </div>
+                            <!-- <div class="col-2 border border-dark ">
+                                i am here on the right
+                            </div> -->
+                        </div>
+                        <br>
+                        <div class="row mainSection">
+                            <div class="col-12 text-center">
+                                <!--This page needs to fix the borders, add two more maps to their origin location and remove the overlays, and add a note to the newsletter that 
+                                    there isnt actually a newletter -->
+                                <h1>Welcome to the wonderful world of Sugar Gliders</h1>
+                                <p>
+                                    Are you interested in Sugar Gliders?  Do you have a love for little, soft animals.
+                                    Then sugar gliders may be for you.  Not only are they cute, but once you have 
+                                    spent enough time with them for them to recongize you as their person, you will
+                                    be part of their group.  You will get to experience the great pleasure of them
+                                    jumping up and on to you just to see you.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-12 text-center">
+                            <h2>Basic Information</h2>
+                        </div>
+                        <br>
+                        <div class="row mainSection">
+                            <div class="col-12 col-lg-4 text-center custom-border">
+                                <p>Sleeping</p>
+                                <p>Appr 7:00 am - 8:00 pm</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center custom-border">
+                                <p>Awake</p>
+                                <p>Appr 8:00 pm - 7:00 am</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center custom-border">
+                                <p>Behavior</p>
+                                <p>Alert, Grouping, Defensive</p>
+                            </div>
+                        </div>
+                        <!--col-12 col-lg-4 border-start border-3 border-warning text-center-->
+                    
+                
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="row mainSection">
+                            <div class="col-12 col-lg-6">
+                                <!--    
+                                <form>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="mb-3">                      
+                                                <input type="text" class="form-control" id="exampleInputFirstName" aria-describedby="firstName" placeholder="First name">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" id="exampleInputLastName" aria-describedby="label" placeholder="Last name">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="mb-3">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone number">
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                                        </div>
                                     </div>
+                                    
+
+
+
+                                    <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                                -->
+
+                                <h3>Where do Suger gliders come from?</h3>
+                                <p>
+                                    Sugar gliders come from 3 places in the world.
+                                    Sugar gliders are native to the forests of New Guinea, 
+                                    Australia, and parts of Indonesia. These small, nocturnal 
+                                    marsupials are arboreal gliders. They're commonly found 
+                                    in the wild in the rainforests of these regions. I remember 
+                                    they’re part of the possum family and are known for their 
+                                    ability to glide. It's important to note that they're 
+                                    often kept as pets, even though their origins are in the wild.
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-lg-end">
+
+
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8133513.502060096!2d135.6036904422622!3d-5.501175819778843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x684a0316a5130283%3A0xf0d0324058e7ea8!2sNew%20Guinea!5e0!3m2!1sen!2sus!4v1739646994399!5m2!1sen!2sus&output=embed&zoom=5&maptype=roadmap&disableDefaultUI=true" 
+                                    width="400" 
+                                    height="300" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    
+                        <br><br><br>
+                        <div class="row mainSection">
+                            <div class="col-6">
+                                <p>Subscribe to our newsletter</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <form class="d-flex"> <!-- Flexbox makes it inline -->
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="mb-3">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-none d-lg-block col-lg-1 bg-danger">
+            <!--<div class="d-none d-lg-block col-lg-1 bg-danger">
                 
-            </div>
+            </div>-->
         </div>
 
 
